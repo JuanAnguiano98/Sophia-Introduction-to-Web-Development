@@ -11,11 +11,16 @@
 </head>
 
 
+<<<<<<< HEAD
 <body class="centered">
+=======
+<body>
+>>>>>>> refs/remotes/origin/main
     <a href="#main-content" id="top">Skip to Main Content</a>
     <form action="/login" method="post">
         <fieldset>
             <legend>Login</legend>
+<<<<<<< HEAD
             <label for="username">Username:</label>
             <input type="text" id="username" 
             name="username" placeholder="Username" minlength="3" maxlength="20" required>
@@ -26,6 +31,16 @@
 
             <label for="eventdate">Date:</label>
             <input type="date" id="eventdate" name="eventDate">
+=======
+            <label for="userName">Username:</label>
+            <input type="text" id="userName" name="username" placeholder="Username" minlength="3" maxlength="20" required>
+
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" name="password" placeholder="Password" minlength="8" maxlength="20" required>
+
+            <label for="eventDate">Date:</label>
+            <input type="date" id="eventDate" name="eventDate">
+>>>>>>> refs/remotes/origin/main
 
             <button type="submit">Login</button>
         </fieldset>
@@ -49,6 +64,7 @@
         </fieldset>
     </form>
     <header>
+<<<<<<< HEAD
         <section class="parent">
             <h1 class="big_title section-label">The Overview</h1>
             <p class="intro">Welcome to our website!</p>
@@ -62,6 +78,28 @@
                 <a href="contact.html">Contact Page</a>
             </nav>
         </section>
+=======
+        <h1>The Overview</h1>
+
+        <audio src="media/audio/nature-sounds-birds.mp3" 
+        controls
+        loop
+        muted
+        preload="metadata">
+            <source src="media/audio/nature-sounds-birds.mp3" type="audio/mp3">
+            <source src="media/audio/nature-sounds-birds.mpeg" type="audio/mmpeg">
+            <source src="media/audio/nature-sounds-birds.ogg" type="audio/ogg">
+            Your browser does not support the audio element sadface
+        </audio>
+        <nav aria-label="Primary">
+            <a href="about.html" target="_blank">About Page</a>
+            <a href="#features">Jump to features</a>
+            <span aria-current="page">Main Page</span> <br>
+            <a href="gallary.html">Gallary</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact Page</a>
+        </nav>
+>>>>>>> refs/remotes/origin/main
     </header>
     <iframe 
         width="560" 
@@ -80,6 +118,7 @@
         allowfullscreen>
     </iframe>
     <main id="main-content">
+<<<<<<< HEAD
 
         <h2 class="lesser_titles">Title for Main</h2>
         <p class="small_title">The main message</p>
@@ -101,6 +140,18 @@
             </h3>
             <p>
                 Section 1 is about...
+=======
+        <h2>Title for Main</h2>
+        <p>The main message</p>
+
+
+        <section>
+            <h3 id="features">
+                Section 4
+            </h3>
+            <p>
+                Section 4 is about...
+>>>>>>> refs/remotes/origin/main
             </p>
             <figure>   
                 <img src="images/mountainSunrise.jpg"
@@ -111,6 +162,7 @@
                 <img src="images/decorative.png"
                 alt="A decoration"
                 width="300px">
+<<<<<<< HEAD
             </figure>
         </section>
         <section class="parent">
@@ -144,6 +196,42 @@
             Your Interests and Experience Level
         </h2>
         <p class="small_title">The Options</p>
+=======
+                <figcaption>A decoration</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h3>
+                Section 5
+            </h3>
+            <p>
+                Section 5 is about...
+            </p>
+        </section>
+    <video controls width="640px" height="360px" 
+        poster="images/mountainSunrise.jpg" 
+        muted 
+        autoplay
+        preload="metadata">
+        <source src="media/video/sophia_intro.mp4" type="video/mp4">
+        <track 
+        src="media/captions/sophia_caption.vtt"
+        kind="captions"
+        srclang="en"
+        label="English"
+        default>
+        <source src="media/video/giraffe.webm" type="video/webm">        
+        Your browser does not supoort this video element sadface
+        <p> Your browser does not support HTML5 video sadface</p>
+        <p> <a href="media/video/sophia_intro.mp4">Download the video instead happyface</a>/p>
+    </video>
+    </main>
+    <footer>
+        <h2>
+            Your Interests and Experience Level
+        </h2>
+        <p>The Options</p>
+>>>>>>> refs/remotes/origin/main
         <ul>
             <li>First</li>
             <label>
@@ -223,7 +311,11 @@
             </ul>
         </nav>
 
+<<<<<<< HEAD
         <form action="/contact" method="post" class="centered">
+=======
+        <form action="/contact" method="post">
+>>>>>>> refs/remotes/origin/main
             <fieldset>
                 <legend>Contact Request</legend>
                 Full Name:
@@ -236,6 +328,12 @@
                 pattern="[A-Za-z0-9]+@[A-Za-z]+.[a-z]+" 
                 title="Make sure to use email format"
                 required>
+<<<<<<< HEAD
+=======
+                <input type="tel" 
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                title="Enter phone in the format of 123-456-7890">
+>>>>>>> refs/remotes/origin/main
                 Subject:
                 <input type="text" name="subject" placeholder="Subject" minlength="3" maxlength="20">
                 <label for="appointment">Schedule appointment (optional)</label>
