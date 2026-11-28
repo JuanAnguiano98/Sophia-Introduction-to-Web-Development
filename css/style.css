@@ -1,0 +1,206 @@
+.card {
+padding: var(--space-md);
+margin-bottom: var(--space-lg);
+}
+
+h1 {
+    color: darkblue;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    margin: 16px 0;
+    color: darkblue;
+    font-size: 12px;
+    text-align: center;
+}
+
+a:link {
+color: #0066cc;
+}
+
+a:visited {
+color: #551a8b;
+}
+
+a:hover {
+color: #004499;
+}
+
+a:focus {
+color: #004499;
+outline: 2px solid #004499;
+}
+
+a:active {
+color: #002244;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1f3a5f;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 4px;
+}
+
+section {
+    padding: 25px;
+    margin: 40px 0;
+}
+
+body {
+    font-family: Times, Georgia, serif;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+
+.intro {
+    font-size: 20px;
+    font-style: italic;
+    color: darkblue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.big_title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.lesser_titles {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.small_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#page-title { 
+
+
+text-align: center; 
+
+border-bottom: 2px solid darkblue; 
+
+}
+
+.parent {
+    color: darkgreen;
+    font-family: Georgia, serif;
+    border: 2px solid darkgreen;
+    padding: 20px;
+}
+
+.section-label { 
+
+text-transform: uppercase; 
+}
+
+h2 {
+font-size: 24px;
+font-weight: 600;
+}
+
+aside {
+background-color: #34495e;
+color: darkgreen;
+padding: 1rem;
+}
+
+:root {
+--space-xs: 0.25rem; /* 4px */
+--space-sm: 0.5rem; /* 8px */
+--space-md: 1rem; /* 16px */
+--space-lg: 1.5rem; /* 24px */
+--space-xl: 2rem; /* 32px */
+}
+
+.button-link {
+display: inline-block;
+padding: 12px 24px;
+background-color: #0066cc;
+color: white;
+text-decoration: none;
+cursor: pointer;
+transition: background-color 0.2s, color 0.2s;
+}
+
+.btn {
+border: none;
+padding: 12px 24px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+.btn-primary {
+background-color: #0066cc;
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #004499;
+}
+
+.btn-secondary {
+background-color: transparent;
+color: #0066cc;
+border: 2px solid #0066cc;
+}
+
+.btn-secondary:hover {
+background-color: #0066cc;
+color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+border: 1px solid #cccccc;
+padding: 10px 12px;
+font-size: 1rem;
+font-family: inherit;
+width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+border-color: #0066cc;
+outline: none;
+box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.2);
+}
+
+button:focus {
+outline: 2px solid #0066cc;
+outline-offset: 2px;
+}
